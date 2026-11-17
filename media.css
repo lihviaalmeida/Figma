@@ -98,21 +98,27 @@
     .conteudo {
         max-width: 600px;
     }
+/* ----- Botões  */
+.botoes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    max-width: 480px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
 
-    /* Botões lado a lado (hero e download) */
-    .botoes {
-        flex-direction: row;
-        max-width: 100%;
-        justify-content: center;
-    }
-
-    #botaoiOS,
-    #botaoMac,
-    .botaoiOS,
-    .botaoMac {
-        width: 225px;
-    }
-
+.botaoiOS,
+.botaoMac {
+    width: 225px;
+    flex: 1 1 0;
+}
+.botaoiOS:hover,
+.botaoMac:hover {
+    transform: translateY(-5px);
+}
     /* ----- Ferramenta ----- */
     .TextinhoCimaFerramenta {
         max-width: 616px;
