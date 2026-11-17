@@ -145,7 +145,7 @@
         max-width: 608px;
     }
 
-    /* ----- Funcionalidade ----- */
+  
     .cardsFuncionalidade {
         flex-direction: row;
         align-items: flex-start;
@@ -153,7 +153,7 @@
         gap: 32px;
     }
 
-    /* ----- Parceiros: uma linha só, espaçados ----- */
+   
     .parceiros {
         flex-direction: row;
         flex-wrap: nowrap;
@@ -170,19 +170,17 @@
         max-width: 18%;
     }
 
-    /* ----- Rodapé ----- */
+   
     .rodape {
         padding: 56px 40px;
     }
 }
 
 
-/* ==========================================================
-   3. DESKTOP (a partir de 1024px)
-   ========================================================== */
+
 @media (min-width: 1024px) {
 
-    /* ----- Tipografia ----- */
+   
     .Text-Preset4 {
         font-size: 46px;
         line-height: 125%;
@@ -209,7 +207,7 @@
         text-align: center;
     }
 
-    /* ----- Hero ----- */
+  
     .botoes {
         flex-direction: row;
         max-width: 100%;
@@ -223,13 +221,11 @@
         width: 225px;
     }
 
-    /* ----- Ferramenta ----- */
     .TextinhoCimaFerramenta {
         max-width: 730px;
         gap: 16px;
     }
 
-    /* Container do Figma: 1440 x 600, gap 0, centralizado */
     .ferramentaImgEtc {
         display: flex;
         flex-direction: row;
@@ -241,22 +237,21 @@
         gap: 0;
     }
 
-    /* Imagem: 755 x 600, encostada na esquerda do container */
+    
     .ferramentaImgEtc img {
         width: 755px;
         height: 600px;
         margin: 0;
         object-fit: cover;
-        object-position: right center; /* se cortar, corta só o lado esquerdo */
+        object-position: right center;
         flex-shrink: 0;
     }
 
-    /* Lista à direita, alinhada à esquerda */
     .pontosPositivos {
         width: 350px;
         gap: 64px;
         margin-top: 0;
-        margin-left: 72px; /* espaço entre o monitor e a lista */
+        margin-left: 72px; 
         flex-shrink: 0;
         text-align: left;
         align-items: flex-start;
@@ -273,18 +268,17 @@
         gap: 8px;
     }
 
-    /* ----- Lugares ----- */
+   
     .imgLugares {
         max-width: 730px;
     }
 
-    /* ----- Funcionalidade ----- */
     .cardsFuncionalidade {
         max-width: 1110px;
         gap: 30px;
     }
 
-    /* ----- Parceiros ----- */
+  
     .parceiros {
         max-width: 1110px;
         gap: 32px;
@@ -295,7 +289,7 @@
         max-height: 48px;
     }
 
-    /* ----- Rodapé: tudo em uma linha ----- */
+   
     .rodape {
         padding: 56px 0;
     }
